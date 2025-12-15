@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load trained model
-model = joblib.load("temperature_icecream_lr.pkl")
+model = joblib.load("TemperatureVsIce.pkl")
 
 st.set_page_config(
     page_title="Temperature vs Ice Cream Sales",
